@@ -1,1 +1,45 @@
 /* PHASE 6: Sidebar */
+.content-header {
+  /*display: flex;*/
+
+}
+
+.profile-picture {
+  display: block;
+  background: url(http://appacademy.github.io/css-friends/solution/06-sidebar.html#);
+  height: 200px;
+  width: 200px;
+  margin-top: -150px;
+  /*position: absolute;*/
+  border: 1px solid black;
+  position: relative;
+}
+
+
+.profile-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-nav {
+  margin-top: 10px;
+}
+
+.profile-nav li {
+  border-top: 1px solid #ddd;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+.profile-nav li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-nav li:hover{
+  background-color: gray;
+  cursor: pointer;
+}
